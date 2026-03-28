@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# 💳 NexPay (Mobile) — Tech Challenge Fase 3
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+O **NexPay Mobile** é um aplicativo de banco digital fictício desenvolvido como parte da Fase 3 do Tech Challenge.  
+A aplicação permite o gerenciamento de transações financeiras com autenticação, integração com Firebase e visualização de dados em tempo real.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Tecnologias utilizadas
 
-   ```bash
-   npm install
-   ```
+- **React Native (Expo)** — Desenvolvimento mobile multiplataforma  
+- **Expo Router** — Navegação baseada em rotas  
+- **NativeWind (Tailwind CSS)** — Estilização com classes utilitárias  
+- **Firebase**:
+  - Authentication — Login e cadastro de usuários  
+  - Firestore — Banco de dados em tempo real  
+  - Storage — Upload de arquivos (recibos)  
+- **React Native Gifted Charts** — Gráficos financeiros  
+- **React Native Reanimated** — Animações performáticas  
+- **Lucide React Native** — Ícones modernos  
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📱 Funcionalidades
 
-In the output, you'll find options to open the app in a
+- 🔐 Login e autenticação com Firebase  
+- 💸 Transferência de valores (saída)  
+- 💰 Depósito (entrada)  
+- 📊 Dashboard com gráficos financeiros  
+- 📋 Listagem de transações em tempo real  
+- 🔎 Filtros por:
+  - Categoria  
+  - Tipo (entrada/saída)  
+  - Data  
+  - Busca por nome  
+- ✏️ Edição de transações  
+- 🗑 Exclusão de transações  
+- ☁️ Integração completa com Firebase  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🖥️ Como rodar o projeto
 
-## Get a fresh project
-
-When you're ready, run:
+### 1️⃣ Clonar o repositório
 
 ```bash
-npm run reset-project
+git clone https://github.com/seu-usuario/nexpay-mobile.git
+cd nexpay
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 2️⃣ Instalar dependências
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## 3️⃣ Rodar o projeto
+```bash
+npm start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Depois:
 
-## Join the community
+- Pressione 'a' para Android
+- Pressione 'i' para iOS
+- Ou escaneie o QR Code com o app Expo Go
 
-Join our community of developers creating universal apps.
+### 🧑‍💻 Autor
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Daniel Alves
